@@ -5,14 +5,6 @@
         public static string UserAgentString = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.33 Safari/537.36";
         public static string username;
         public static string version = "1";
-        public static int Pin = 2048;
-        public static int HwidPin = 1488;
-        public static string Check = "http://91.235.129.157/version.txt";
-        public static string Update = "http://91.235.129.157/robots.txt";
-        public static string Auth = "http://91.235.129.157/check.php";
-        public static string Loader = "http://91.235.129.157/loader.exe";
-        public static string JoinDate = "";
-        public static string EndDate = "";
 
         public struct OtherControls
         {
