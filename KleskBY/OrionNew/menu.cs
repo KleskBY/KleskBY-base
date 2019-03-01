@@ -565,7 +565,6 @@ namespace Orion
             EspTrackBar5.Value = Settings.Esp.VisableColor_G; EspLabel15.Text = Settings.Esp.VisableColor_G.ToString();
             EspTrackBar6.Value = Settings.Esp.VisableColor_B; EspLabel16.Text = Settings.Esp.VisableColor_B.ToString();
 
-            ProfileLabel1.Text = ProfileLabel1.Text + Settings.username;
             const string subkey = @"SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\";
             using (RegistryKey ndpKey = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry32).OpenSubKey(subkey))
             {
@@ -575,8 +574,7 @@ namespace Orion
                 }
             }
             
-            ProfileLabel3.Text = ProfileLabel3.Text + Settings.JoinDate;
-            ProfileLabel4.Text = ProfileLabel4.Text + Settings.EndDate;
+
             ProfileLabel9.Text = ProfileLabel9.Text + Settings.version;
             string ver = Environment.OSVersion.ToString();
             ver = ver.Replace("Windows", "");

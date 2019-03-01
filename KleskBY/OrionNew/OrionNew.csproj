@@ -91,7 +91,6 @@
     <Compile Include="Managers\Config.cs" />
     <Compile Include="Managers\Reader.cs" />
     <Compile Include="Features\Trigger.cs" />
-    <Compile Include="Managers\hwid.cs" />
     <Compile Include="Managers\Memory.cs" />
     <Compile Include="Managers\ThreadManager.cs" />
     <Compile Include="Managers\Watcher.cs" />
@@ -121,7 +120,6 @@
     <Compile Include="Other\Offsets.cs" />
     <Compile Include="Other\Settings.cs" />
     <Compile Include="Other\Structs.cs" />
-    <Content Include="eye.ico" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -133,16 +131,7 @@
     <EmbeddedResource Include="Forms\Overlay.resx">
       <DependentUpon>Overlay.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Resources\eye%283%29.png" />
-    <None Include="Resources\knopka %284%29.png" />
-    <None Include="Resources\knopka %282%29.png" />
-    <None Include="Resources\knopkaMin2.png" />
-    <None Include="Resources\knopkaMin1.png" />
     <None Include="app.manifest" />
-    <None Include="Resources\eye%281%29.png" />
-    <None Include="Resources\eye%282%29.png" />
-    <None Include="Resources\giphy2.gif" />
-    <None Include="Resources\giphy3.gif" />
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,94 +154,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\eye.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\giphy.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\vwslenxm.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\msic.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\msic1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\aim.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\glow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\profile1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\profile2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\radar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\playerlist.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\keys.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\profile_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\aimbot_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\aimbot_dark1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\aimbot_dark2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\glow_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\glow_dark1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\misc_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\radar_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\list_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\key_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tray.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CloseDarker.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tray1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TrayDarker.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TrayDarker1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\switch.png" />
@@ -319,45 +221,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\switch5-18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\save.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\save2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\save3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\save4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\save5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\load.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\save_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\load_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\colorpicker.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\esp.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\chat_dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\esp_dark.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\0colorwheel.png" />

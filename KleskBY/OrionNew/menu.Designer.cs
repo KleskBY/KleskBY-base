@@ -51,6 +51,7 @@
             this.GlowTitle = new System.Windows.Forms.Label();
             this.ProfileLabel9 = new System.Windows.Forms.Label();
             this.ProfileLabel6 = new System.Windows.Forms.Label();
+            this.ProfileLabel2 = new System.Windows.Forms.Label();
             this.AIMBOT = new System.Windows.Forms.TabPage();
             this.label9 = new System.Windows.Forms.Label();
             this.Toggle8 = new System.Windows.Forms.Button();
@@ -242,7 +243,6 @@
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.ProfileLabel2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -607,9 +607,20 @@
             this.ProfileLabel6.TabIndex = 149;
             this.ProfileLabel6.Text = "OS Version: ";
             // 
+            // ProfileLabel2
+            // 
+            this.ProfileLabel2.AutoSize = true;
+            this.ProfileLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.ProfileLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.ProfileLabel2.Location = new System.Drawing.Point(55, 55);
+            this.ProfileLabel2.Name = "ProfileLabel2";
+            this.ProfileLabel2.Size = new System.Drawing.Size(92, 21);
+            this.ProfileLabel2.TabIndex = 142;
+            this.ProfileLabel2.Text = "Version: ";
+            // 
             // AIMBOT
             // 
-            this.AIMBOT.BackColor = System.Drawing.Color.Transparent;
+            this.AIMBOT.BackColor = System.Drawing.Color.Maroon;
             this.AIMBOT.Controls.Add(this.label9);
             this.AIMBOT.Controls.Add(this.Toggle8);
             this.AIMBOT.Controls.Add(this.label7);
@@ -1217,7 +1228,7 @@
             // 
             // GLOW
             // 
-            this.GLOW.BackColor = System.Drawing.Color.Transparent;
+            this.GLOW.BackColor = System.Drawing.Color.Maroon;
             this.GLOW.Controls.Add(this.roundedPictureBox1);
             this.GLOW.Controls.Add(this.label30);
             this.GLOW.Controls.Add(this.GlowToggle6);
@@ -1586,7 +1597,7 @@
             // 
             // MISC
             // 
-            this.MISC.BackColor = System.Drawing.Color.Transparent;
+            this.MISC.BackColor = System.Drawing.Color.Maroon;
             this.MISC.Controls.Add(this.label32);
             this.MISC.Controls.Add(this.trackBar12);
             this.MISC.Controls.Add(this.trackBar11);
@@ -1933,7 +1944,7 @@
             // 
             // ESP
             // 
-            this.ESP.BackColor = System.Drawing.Color.Transparent;
+            this.ESP.BackColor = System.Drawing.Color.Maroon;
             this.ESP.Controls.Add(this.label31);
             this.ESP.Controls.Add(this.EspToggle2);
             this.ESP.Controls.Add(this.EspTrackBar6);
@@ -2286,7 +2297,7 @@
             // 
             // RADAR
             // 
-            this.RADAR.BackColor = System.Drawing.Color.Transparent;
+            this.RADAR.BackColor = System.Drawing.Color.Maroon;
             this.RADAR.Controls.Add(this.label8);
             this.RADAR.Location = new System.Drawing.Point(4, 29);
             this.RADAR.Name = "RADAR";
@@ -2309,7 +2320,7 @@
             // 
             // CHAMS
             // 
-            this.CHAMS.BackColor = System.Drawing.Color.Transparent;
+            this.CHAMS.BackColor = System.Drawing.Color.Maroon;
             this.CHAMS.Controls.Add(this.label33);
             this.CHAMS.Controls.Add(this.ChamsToggle3);
             this.CHAMS.Controls.Add(this.ChamsToggle2);
@@ -2638,7 +2649,7 @@
             // 
             // KEYS
             // 
-            this.KEYS.BackColor = System.Drawing.Color.Transparent;
+            this.KEYS.BackColor = System.Drawing.Color.Maroon;
             this.KEYS.Controls.Add(this.label34);
             this.KEYS.Controls.Add(this.KeyPicker12);
             this.KEYS.Controls.Add(this.KeyPicker11);
@@ -3321,7 +3332,7 @@
             // 
             // CHAT
             // 
-            this.CHAT.BackColor = System.Drawing.Color.Transparent;
+            this.CHAT.BackColor = System.Drawing.Color.Maroon;
             this.CHAT.Controls.Add(this.button14);
             this.CHAT.Controls.Add(this.textBox1);
             this.CHAT.Controls.Add(this.richTextBox1);
@@ -3413,17 +3424,6 @@
             this.button10.Click += new System.EventHandler(this.button10_Click);
             this.button10.MouseEnter += new System.EventHandler(this.button10_MouseEnter);
             this.button10.MouseLeave += new System.EventHandler(this.button10_MouseLeave);
-            // 
-            // ProfileLabel2
-            // 
-            this.ProfileLabel2.AutoSize = true;
-            this.ProfileLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.ProfileLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.ProfileLabel2.Location = new System.Drawing.Point(55, 55);
-            this.ProfileLabel2.Name = "ProfileLabel2";
-            this.ProfileLabel2.Size = new System.Drawing.Size(92, 21);
-            this.ProfileLabel2.TabIndex = 142;
-            this.ProfileLabel2.Text = "Version: ";
             // 
             // menu
             // 
