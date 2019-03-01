@@ -13,7 +13,7 @@ RCS<br>
 Curved Aim <br>
 AutoDleay (Magnet trigger) <br><br>
 Glow:<br>
-A unique colarpicker (choice of color), he himself invented, he did not see anywhere else<br>
+A unique colarpicker (my own idea)<br>
 bSpotted check<br>
 team check<br>
 Health based color<br>
