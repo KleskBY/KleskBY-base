@@ -3,8 +3,8 @@ My old external CSGO base.
 ![alt text](blob:https://i.imgur.com/JGHe0cy.png)<br>
 Credits: KleskBY, MultiHackerCoun for his "Externalio" base.
 
-Functional:<br>
-Aimbot:<br>
+<b>FEATURES:</b><br>
+<b>Aimbot:</b><br>
 bSpotted check<br>
 KillDelay (super shitty)<br>
 mouse_event (works better than usual, lol)<br>
@@ -19,7 +19,7 @@ team check<br>
 Health based color<br>
 FullBloom glow<br>
 Showweapons<br><br>
-MISC:<br>
+<b>MISC:</b><br>
 Bunnyhop<br>
 AutoStrafe <br>
 AimLock (lowers the sense when the target hits the enemy)<br>
@@ -29,16 +29,17 @@ TriggerBot Delay<br>
 TriggerBot sleep (delay after shot)<br>
 Strafeemulator<br>
 Ingame radar<br>
+KnifeBot (in .txt file)<br>
 Esp:<br>
 For esp rendering, an overlay on Winforms + DGI + is used (After a few different tests, I realized that this is the best solution for C #)<br>
 bSpotted check<br>
 Health (left bar, right bar, number);<br>
 Box width<br>
 Color settings<br>
-CHAMS:<br>
+<b>CHAMS:</b><br>
 Color settings<br>
 Health based color<br>
-OTHER:<br>
+<b>OTHER:</b><br>
 Load/Save CFG<br>
 Auto Update Offsets.<br>
 Threadmanager<br>
