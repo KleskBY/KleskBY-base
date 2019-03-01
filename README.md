@@ -1,6 +1,6 @@
 # CSGO External-Hack
-My old external CSGO base. 
-![alt text](blob:https://i.imgur.com/JGHe0cy.png)<br>
+My old external CSGO base. <br>
+![alt text](blob:http://i.imgur.com/JGHe0cy.png)<br>
 Credits: KleskBY, MultiHackerCoun for his "Externalio" base.
 
 <b>FEATURES:</b><br>
