@@ -1,3 +1,8 @@
+# CS-1.6-External-Hack
+My external cs 1.6 base. Works rly bad. Seems like cs 1.6 dont have normal bone marix.
+![alt text](https://i.imgur.com/6Iao2mU.png)<br>
+Credits: KleskBY, MultiHackerCoun for his "Externalio" base.
+
 Functional:
 Aimbot:
 bSpotted check
